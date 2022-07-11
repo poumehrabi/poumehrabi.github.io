@@ -1,4 +1,4 @@
-baseURL = "http://poumehrabi.github.io/pouriamehrabi.github.io/"
+baseURL = "https://poumehrabi.github.io/pouriamehrabi/"
 languageCode = "en-us"
 title = "Pouria Mehrabi"
 theme = "shell"
