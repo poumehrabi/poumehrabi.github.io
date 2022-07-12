@@ -1,0 +1,34 @@
+<!doctype html><html lang=en-us><head><title></title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content><style>@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow:auto;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;min-height:82vmin}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#cd:after,#whoami:after,#cat:after,#tree:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}body{background:#1b1d1e}body #terminal{color:#bbb}body #user{color:#23e298}body #dir{color:#d08010}body .Typewriter__cursor{color:#bbb}a{color:#bbb}.navFull{background-color:#353535;font-family:courier new;font-size:17px;display:inline;position:fixed;bottom:0;left:0;width:100%;padding-top:5px;padding:10px;padding-bottom:0}.navCredits{float:right;padding-right:18px;padding-bottom:10px;padding-top:5px}#content::after{content:"\a\a";white-space:pre}</style></head><body><div id=content><span id=activity-title></span><br><span id=activity-content></span><br><script type=text/javascript>async function typewriter(e,t,n){var s=0,o=!1;addText="";const i=document.getElementById(t),a=()=>new Promise(e=>setTimeout(e,n)),r=()=>new Promise(e=>e()),c=()=>i.innerHTML=e.slice(0,s+1)+addText,l=document.createElement("span");for(l.id="blink",i.style.setProperty("--cursor-visibility","visible");s<e.length;){if(e.charAt(s+1)==="<"&&(o=!0),e.charAt(s+1)===">"&&(o=!1),o){s++;continue}requestAnimationFrame(c),n===0?await r():await a(),s++}i.style.setProperty("--cursor-visibility","collapse")}function parseDelay(e){const t=parseInt(e,10);return isNaN(t)?0:t}const titleDelay=parseDelay("0"),contentDelay=parseDelay("0"),typeeffetct=async()=>{await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003e\u003c/h1\u003e\u003c/span\u003e","activity-title",titleDelay),await typewriter(`\u003cspan id=\u0027terminal\u0027\u003e\u003chr\u003e
+\u003cp\u003eM.Sc. in Electrical Engineering (Control Engineering) from  \u003ca href=\u0022en.kntu.ac.ir\u0022\u003eK.N. Toosi
+University of Technology\u003c/a\u003e Tehran, Iran (Sep. 2015 - Sep. 2018)\u003c/p\u003e
+\u003cul\u003e
+\u003cli\u003e\u003cstrong\u003eGPA:\u003c/strong\u003e 17.23/20 (3.72/4 according to WES), Among Top 5 in Class\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eThesis Title:\u003c/strong\u003e A Novel Probabilistic Framework for Dynamic Object Recognition and Tracking in 3D Environments using LIDAR Sensor [\u003ca href=\u0022https://arxiv.org/pdf/2201.11608.pdf\u0022\u003e(Link)\u003c/a\u003e]\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eSupervisor:\u003c/strong\u003e \u003ca href=\u0022https://aras.kntu.ac.ir/taghirad/\u0022\u003eProf. Hamid D. Taghirad\u003c/a\u003e\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eSelected Courses:\u003c/strong\u003e Selected Courses: Nonlinear Control (19.5/20 - Top Mark), System Identification(16.5/20 - Top Mark), Stochastic Processes(17.5/20 - Top Mark),  Optimal Control(16.75/20), Biomechatronics(19/20).\u003c/li\u003e
+\u003c/ul\u003e
+\u003chr\u003e
+\u003cp\u003eB.SC. IN ELECTRICAL ENGINEERING (CONTROL ENGINEERING) Babol Noushirvani
+Institute of Technology (NIT) Mazandaran, Iran Sep. 2010 - Sep. 2015\u003c/p\u003e
+\u003cul\u003e
+\u003cli\u003e\u003cstrong\u003eGPA:\u003c/strong\u003e 14.75/20\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eThesis Title:\u003c/strong\u003e IMU-based Path Estimation of On-Campus Quadrotor\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eSupervisor:\u003c/strong\u003e[ Prof. Alireza Khosravi]\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eSenior Project:\u003c/strong\u003e Error Compensation of Strapped-down IMU unit to NIT
+Driverless-Car using Nonlinear Observer\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eSupervisor:\u003c/strong\u003e[Prof. Bijan Zakeri]\u003c/li\u003e
+\u003c/ul\u003e
+\u003chr\u003e
+\u003cp\u003eMBA IN INTELLIGENT BUSINESS \u0026amp; TRANSFORMING MANAGEMENT Industrial
+Management Institute (IMI) Tehran, Iran Sep. 2017 - Sep. 2019\u003c/p\u003e
+\u003cul\u003e
+\u003cli\u003e\u003cstrong\u003eSelected Courses:\u003c/strong\u003e System Thinking, System Dynamics, Value Creation,
+Business Process Engineering, Organizational Architecture Design, Supply
+Chain Management, Behavioral Economics (Public Policy)\u003c/li\u003e
+\u003c/ul\u003e
+\u003chr\u003e
+\u003c/span\u003e`,"activity-content",contentDelay)};typeeffetct()</script></div><span class=navFull><span><a href=/>Home</a>
+<span>&#8192;|&#8192;</span>
+<a href=./..>/pouriamehrabi/</a></span>
+<span class=navCredits>Hugo theme created by
+<a href=https://github.com/Yukuro/hugo-theme-shell target=_blank rel=noopener>Yukuro</a></span></span></body></html>
